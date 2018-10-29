@@ -1,0 +1,13 @@
+[package]
+authors = ["eeeeeta <eeeeeta@users.noreply.github.com>"]
+name = "ical-timetabler"
+version = "0.1.0"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+csv = "1.0.1"
+failure = "0.1.2"
+icalendar = "0.3.1"
+serde = "1.0.75"
+serde_derive = "1.0.75"
+toml = "0.4.6"
